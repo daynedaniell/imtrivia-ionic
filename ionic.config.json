@@ -1,0 +1,8 @@
+{
+  "name": "imtrivia-ionic",
+  "app_id": "04a2e61e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
