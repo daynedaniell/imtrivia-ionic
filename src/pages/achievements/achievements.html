@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>List</ion-title>
+  </ion-navbar>
+</ion-header>
+  <ion-content padding="true">
+    <div class="content padding">
+
+      <ul>
+        <li *ngFor="let a of achievements">{{a.achievement}}</li>
+      </ul>
+    </div>
+  </ion-content>
+
